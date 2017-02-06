@@ -9,25 +9,17 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="300"
-   height="300"
+   width="700"
+   height="700"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="icon.svg"
    inkscape:export-filename="C:\Projects Git\Pork-Bowl-Con\img\icon\192x192.png"
-   inkscape:export-xdpi="57.599998"
-   inkscape:export-ydpi="57.599998">
+   inkscape:export-xdpi="24.690001"
+   inkscape:export-ydpi="24.690001">
   <defs
-     id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="-254.57142 : 926.75253 : 1"
-       inkscape:vp_y="6.1230319e-014 : 1000 : 0"
-       inkscape:vp_z="763.80877 : 1001.0382 : 1"
-       inkscape:persp3d-origin="611.76153 : 102.78739 : 1"
-       id="perspective2985" />
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -35,20 +27,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="166.4243"
-     inkscape:cy="117.92092"
+     inkscape:zoom="0.35"
+     inkscape:cx="708.07018"
+     inkscape:cy="409.87487"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1108"
-     inkscape:window-height="653"
-     inkscape:window-x="2080"
-     inkscape:window-y="95"
-     inkscape:window-maximized="0"
-     inkscape:object-paths="true"
-     showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:window-width="1423"
+     inkscape:window-height="760"
+     inkscape:window-x="2209"
+     inkscape:window-y="122"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -65,32 +54,28 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-752.36218)">
+     transform="translate(0,-352.36218)">
     <path
-       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.35798883000000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 50.339011,834.71774 100.497359,29.34401 0,142.76435 -100.497359,-28.57194 z"
-       id="rect3020"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="C:\Projects Git\fjzusi.github.io\img\icon\path3027.png"
-       inkscape:export-xdpi="124.93448"
-       inkscape:export-ydpi="124.93448" />
+       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 139.81249,760.94642 c 7.00998,113.55077 101.309,203.46875 216.625,203.46875 115.31599,0 209.58377,-89.91798 216.59375,-203.46875 l -433.21875,0 z"
+       id="path2985"
+       inkscape:connector-curvature="0" />
     <path
-       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.59600018999999980;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
-       d="M 152.32243,801.10736 253.913,832.70881 152.32243,862.31018 50.630875,832.70881 z"
-       id="rect3022"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="C:\Projects Git\fjzusi.github.io\img\icon\path3027.png"
-       inkscape:export-xdpi="124.93448"
-       inkscape:export-ydpi="124.93448" />
+       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 139.64285,568.90178 c -27.58094,60.01991 -25.45142,126.95078 1.0625,183.1875 l 340.375,0 -341.4375,-183.1875 z"
+       id="path3772"
+       inkscape:connector-curvature="0" />
     <path
-       sodipodi:nodetypes="ccccc"
+       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 571.85238,754.55907 c -2.47194,-53.574 -24.43427,-102.18769 -59.02707,-138.81118 L 195.28913,748.69502 z"
+       id="path3782"
        inkscape:connector-curvature="0"
-       id="path3027"
-       d="m 254.10583,834.71774 -100.49736,29.34401 0,142.76435 100.49736,-28.57194 z"
-       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.35798836000000020;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
-       inkscape:export-xdpi="124.93448"
-       inkscape:export-ydpi="124.93448" />
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 213.98015,406.78293 c -43.84213,39.78878 -67.90722,94.02059 -70.74866,149.57936 l 341.55991,188.5308 z"
+       id="path3777"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>
