@@ -1,0 +1,9 @@
+name: "Pork Bown Con"
+description: "A Nerd Convention with a Hearty Twist"
+url: "http://www.porkbowlcon.com/"
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "default"
