@@ -15,9 +15,9 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="icon.svg"
-   inkscape:export-filename="C:\Projects Git\fjzusi.github.io\img\icon\icon.png"
-   inkscape:export-xdpi="270"
-   inkscape:export-ydpi="270">
+   inkscape:export-filename="C:\Projects Git\Pork-Bowl-Con\img\icon\192x192.png"
+   inkscape:export-xdpi="57.599998"
+   inkscape:export-ydpi="57.599998">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -41,10 +41,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1283"
-     inkscape:window-height="1002"
-     inkscape:window-x="294"
-     inkscape:window-y="3"
+     inkscape:window-width="1108"
+     inkscape:window-height="653"
+     inkscape:window-x="2080"
+     inkscape:window-y="95"
      inkscape:window-maximized="0"
      inkscape:object-paths="true"
      showguides="true"
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -67,7 +67,7 @@
      id="layer1"
      transform="translate(0,-752.36218)">
     <path
-       style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.35798883;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.35798883000000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
        d="m 50.339011,834.71774 100.497359,29.34401 0,142.76435 -100.497359,-28.57194 z"
        id="rect3020"
        inkscape:connector-curvature="0"
@@ -76,7 +76,7 @@
        inkscape:export-xdpi="124.93448"
        inkscape:export-ydpi="124.93448" />
     <path
-       style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.59600018999999980;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
+       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.59600018999999980;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
        d="M 152.32243,801.10736 253.913,832.70881 152.32243,862.31018 50.630875,832.70881 z"
        id="rect3022"
        inkscape:connector-curvature="0"
@@ -89,7 +89,7 @@
        inkscape:connector-curvature="0"
        id="path3027"
        d="m 254.10583,834.71774 -100.49736,29.34401 0,142.76435 100.49736,-28.57194 z"
-       style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.35798836;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+       style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.35798836000000020;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
        inkscape:export-xdpi="124.93448"
        inkscape:export-ydpi="124.93448" />
   </g>
