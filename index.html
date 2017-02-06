@@ -2,4 +2,20 @@
 title: Pork Bowl Con
 ---
 
-<h1>Pork Bowl Con <span class="glyphicon glyphicon-asterisk"></span></h1>
+<h1>Pork Bowl Con</h1>
+
+<p>Welcome to Pork Bowl Con! A nerd convention with a hearty attitude!</p>
+
+{% for news in site.data.news %}
+	<div class="media news-item">
+		<div class="media-left">
+			<img class="media-object" src="{{ news.image }}" />
+		</div>
+		<div class="media-body">
+			<h4 class="media-heading">{{ news.title }}</h4>
+			{% for para in news.paragraphs %}
+			<p>{{ para }}</p>
+			{% endfor %}
+		</div>
+	</div>
+{% endfor %}
