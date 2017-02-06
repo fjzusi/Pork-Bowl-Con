@@ -6,7 +6,11 @@
 	<body>
 		<div class="container">
 			{% include nav.html %}
-			{{ content }}
+			<div class="content panel panel-default clearfix">
+				<div class="col-xs-12">
+					{{ content }}
+				</div>
+			</div>
 		</div>
 		{% include scripts.html %}
 	</body>
