@@ -6,15 +6,13 @@
 	<body>
 		<div class="container">
 			{% include nav.html %}
-			<div class="content panel panel-default clearfix">
-				<div class="col-xs-12">
-					{{ content }}
-				</div>
+			<div class="row">
+				{{ content }}
 			</div>
+			<footer>
+				Copyright 2017
+			</footer>
 		</div>
-		<footer>
-			
-		</footer>
 		{% include scripts.html %}
 	</body>
 </html>
