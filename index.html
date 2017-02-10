@@ -8,13 +8,20 @@ title: Pork Bowl Con
 </div>
 
 {% for news in site.data.news %}
-	<div class="col s12 m4">
-		<div class="card-panel">
-			<img src="{{ news.image }}" />
-			<h4 class="media-heading">{{ news.title }}</h4>
-			{% for para in news.paragraphs %}
-			<p>{{ para }}</p>
-			{% endfor %}
+	{% capture mod %}{{ forloop.index | modulo:3 }}{% endcapture %}
+	{% if mod == '1' %}
+	<div class="row">
+	{% endif %}
+		<div class="col s12 m4">
+			<div class="card-panel">
+				<img src="{{ news.image }}" />
+				<h4 class="media-heading">{{ news.title }} {{ mod }}</h4>
+				{% for para in news.paragraphs %}
+				<p>{{ para }}</p>
+				{% endfor %}
+			</div>
 		</div>
+	{% if mod == '0' %}
 	</div>
+	{% endif %}
 {% endfor %}
