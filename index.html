@@ -9,10 +9,11 @@ title: Pork Bowl Con
 	</div>
 </div>
 
+<div class="row">
 {% for news in site.data.news %}
 	{% capture mod %}{{ forloop.index | modulo:3 }}{% endcapture %}
 	{% if mod == '1' %}
-	<div class="row">
+	</div><div class="row">
 	{% endif %}
 		<div class="col s12 m4">
 			<div class="card medium">
@@ -30,7 +31,5 @@ title: Pork Bowl Con
 				</div>
 			</div>
 		</div>
-	{% if mod == '0' %}
-	</div>
-	{% endif %}
 {% endfor %}
+</div>
