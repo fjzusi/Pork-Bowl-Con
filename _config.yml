@@ -1,6 +1,7 @@
 name: "Pork Bown Con"
 description: "A Nerd Convention with a Hearty Twist"
 url: "http://www.porkbowlcon.com/"
+con_date: "July 3-6, 2064"
 defaults:
     -
         scope:
