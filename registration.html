@@ -3,12 +3,43 @@ title: Registration
 ---
 
 <div class="row">
-	<div class="col s12">
-		<h1>Register Online</h1>
+	<div class="col s12 m4 push-m8">
+		<div class="card cart-section">
+			<div class="card-content">
+				<div class="cart-header">Pork Bowl Con</div>
+				<div class="cart-date-header">{{ site.con_date }}</div>
+				<div class="row">
+					<div class="col s6">
+						<label>Quantity</label>
+						<select class="browser-default">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+						</select>
+					</div>
+					<div class="col s6 cart-price-display">$65.00 each</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
-<div class="row">
-	<form class="col s12">
+	<form class="col s12 m8 pull-m4">
 		<div class="row">
 			<div class="input-field col m6 s12">
 				<input id="first_name" type="text" class="validate">
@@ -108,62 +139,66 @@ title: Registration
 				<label for="zip">Zip</label>
 			</div>
 		</div>
-		<div class="row">
-			<div class="input-field col m6 s12">
-				<input id="cc_num" type="text" class="validate">
-				<label for="cc_num">Card Number</label>
-			</div>
-			<div class="input-field col m6 s12">
-				<input id="cc_name" type="text" class="validate">
-				<label for="cc_name">Name on Card</label>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col m3 s6">
-				<label>Expiration</label>
-				<select class="browser-default">
-					<option></option>
-					<option>01 - January</option>
-					<option>02 - February</option>
-					<option>03 - March</option>
-					<option>04 - April</option>
-					<option>05 - May</option>
-					<option>06 - June</option>
-					<option>07 - July</option>
-					<option>08 - August</option>
-					<option>09 - September</option>
-					<option>10 - October</option>
-					<option>11 - November</option>
-					<option>12 - December</option>
-				</select>
-			</div>
-			<div class="col m3 s6">
-				<label>&nbsp;</label>
-				<select class="browser-default">
-					<option></option>
-					<option>2017</option>
-					<option>2018</option>
-					<option>2019</option>
-					<option>2020</option>
-					<option>2021</option>
-					<option>2022</option>
-					<option>2023</option>
-					<option>2024</option>
-					<option>2025</option>
-					<option>2026</option>
-					<option>2027</option>
-					<option>2028</option>
-					<option>2029</option>
-					<option>2030</option>
-				</select>
-			</div>
-			<div class="input-field col m3 s12">
-				<input id="security_code" type="text" class="validate">
-				<label for="security_code">CVV</label>
-			</div>
-			<div class="input-field col m3 s12">
-				<input id="billing_zip" type="text" class="validate">
-				<label for="billing_zip">Billing Zip Code</label>
+		<div class="card payment-section">
+			<div class="card-content">
+				<div class="row">
+					<div class="input-field col m6 s12">
+						<input id="cc_num" type="text" class="validate">
+						<label for="cc_num">Card Number</label>
+					</div>
+					<div class="input-field col m6 s12">
+						<input id="cc_name" type="text" class="validate">
+						<label for="cc_name">Name on Card</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col m3 s6">
+						<label>Expiration</label>
+						<select class="browser-default">
+							<option></option>
+							<option>01 - January</option>
+							<option>02 - February</option>
+							<option>03 - March</option>
+							<option>04 - April</option>
+							<option>05 - May</option>
+							<option>06 - June</option>
+							<option>07 - July</option>
+							<option>08 - August</option>
+							<option>09 - September</option>
+							<option>10 - October</option>
+							<option>11 - November</option>
+							<option>12 - December</option>
+						</select>
+					</div>
+					<div class="col m3 s6">
+						<label>&nbsp;</label>
+						<select class="browser-default">
+							<option></option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>2020</option>
+							<option>2021</option>
+							<option>2022</option>
+							<option>2023</option>
+							<option>2024</option>
+							<option>2025</option>
+							<option>2026</option>
+							<option>2027</option>
+							<option>2028</option>
+							<option>2029</option>
+							<option>2030</option>
+						</select>
+					</div>
+					<div class="input-field col m3 s12">
+						<input id="security_code" type="text" class="validate">
+						<label for="security_code">CVV</label>
+					</div>
+					<div class="input-field col m3 s12">
+						<input id="billing_zip" type="text" class="validate">
+						<label for="billing_zip">Billing Zip Code</label>
+					</div>
+				</div>
 			</div>
 		</div>
 		<button class="btn waves-effect waves-light right" type="submit" name="action">Register
